@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cd93c5bc-0e2e-4e56-a414-22466c0dddb5",
+  "alias": "ReactGetItemsWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "cd93c5bc-0e2e-4e56-a414-22466c0dddb5",
+    "group": { "default": "Under Development" },
+    "title": { "default": "ReactGetItems" },
+    "description": { "default": "ReactGetItems" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "listName": ""
+    }
+  }]
+}
